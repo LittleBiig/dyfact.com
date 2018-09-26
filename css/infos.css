@@ -29,7 +29,7 @@ a:hover
 .morecontent>span,
 .morelink
 {
-  font-family: Lato;
+  font-family: 'Roboto';
   font-style: normal;
     color: #cccccc;
 }
@@ -37,7 +37,7 @@ a:hover
 .moreellipses,
 .morelink{
   color:#cccccc;
-  font-family: Lato;
+  font-family: 'Roboto';
   font-style: italic;
   text-decoration: normal;
 }
