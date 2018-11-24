@@ -62,6 +62,9 @@
           <h2 class="text-center ">MUSIQUE</h2> </div>
       </div>
       <div class="row music-content content ">
+        <div class="cover"> <a href="https://www.youtube.com/watch?v=J1odG8DHjyQ" target=blank><img src="https://i.scdn.co/image/63a214e760e3ef7e80912123ab1f6abfad184a8d" alt="cover Childhood Dreams">
+        </a>
+        </div>
         <div class="cover"> <a href="https://www.youtube.com/watch?v=0GJfNCI-jfo" target=blank><img src="https://i.scdn.co/image/64fd80626612c9f4746bf6ad5cd14002c3e3890e" alt="cover Childhood Dreams">
         </a>
         </div>
@@ -203,7 +206,7 @@
       $('.js-scrollTo').on('click', function() { // Au clic sur un élément
         var page = $(this).attr('href'); // Page cible
         var speed = 600; // Durée de l'animation (en ms)
-        var top = $(page).offset().top - 0.0 * ($(window).height());
+        var top = $(page).offset().top;
         $('html, body').animate({
           scrollTop: top
         }, speed, 'swing'); // Go
